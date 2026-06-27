@@ -54,8 +54,8 @@ void AChunk::GenerateBlocks()
 	{
 		for (int y = 0; y < Size; ++y)
 		{
-			const float Xpos = (x * Location.X) / 100;
-			const float Ypos = (y * Location.Y) / 100;
+			const float Xpos = (x * 100 + Location.X) / 100;
+			const float Ypos = (y * 100 + Location.Y) / 100;
 			
 			const int Height = FMath::Clamp(FMath::RoundToInt((Noise->GetNoise(Xpos, Ypos) + 1) * Size / 2), 0, Size);
 			
