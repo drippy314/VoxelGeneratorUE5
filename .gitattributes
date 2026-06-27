@@ -1,0 +1,55 @@
+# Image Files
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+# 3D Assets and Modeling Files
+*.assbin filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.blend1 filter=lfs diff=lfs merge=lfs -text
+*.blend2 filter=lfs diff=lfs merge=lfs -text
+*.blend3 filter=lfs diff=lfs merge=lfs -text
+*.blend4 filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.sbs filter=lfs diff=lfs merge=lfs -text
+*.sbsar filter=lfs diff=lfs merge=lfs -text
+*.spsm filter=lfs diff=lfs merge=lfs -text
+*.tbscene filter=lfs diff=lfs merge=lfs -text
+*.zpr filter=lfs diff=lfs merge=lfs -text
+*.ztl filter=lfs diff=lfs merge=lfs -text
+# Archives
+*.rar filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+# Audio and Video Files
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+# Game Engine Files
+*.anim filter=lfs diff=lfs merge=lfs -text
+*.asset filter=lfs diff=lfs merge=lfs -text
+*.controller filter=lfs diff=lfs merge=lfs -text
+*.mat filter=lfs diff=lfs merge=lfs -text
+*.prefab filter=lfs diff=lfs merge=lfs -text
+*.ptx filter=lfs diff=lfs merge=lfs -text
+*.spp filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
+*.vmap filter=lfs diff=lfs merge=lfs -text
+*.vpk filter=lfs diff=lfs merge=lfs -text
+*.vtex filter=lfs diff=lfs merge=lfs -text
+# Other Binary Files
+*.bak filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.dmx filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.pur filter=lfs diff=lfs merge=lfs -text
+*.radgen filter=lfs diff=lfs merge=lfs -text
+*.tor filter=lfs diff=lfs merge=lfs -text
+"*.uasset" filter=lfs diff=lfs merge=lfs -text
+"*.umap" filter=lfs diff=lfs merge=lfs -text
