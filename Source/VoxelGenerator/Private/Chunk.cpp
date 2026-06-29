@@ -4,7 +4,6 @@
 #include "Chunk.h"
 
 #include <stdexcept>
-
 #include "Enums.h"
 #include "ProceduralMeshComponent.h"
 #include "FastNoiseLite.h"
@@ -36,7 +35,6 @@ void AChunk::BeginPlay()
 	GenerateMesh();
 	
 	ApplyMesh();
-	
 }
 
 
